@@ -145,6 +145,22 @@ class Main
          *          the indices are multiples of 3
          *         
          */
+        System.out.println("*** Task 6A ***");
+            for (int i=2 ; i<n-1 ; i++){
+                int[] ar5 = new int[n-3];
+                ar5[i-2] = ar1[i];
+                System.out.println(i);
+            }
+            
+        System.out.println("*** Task 6B ***");
+            for (int i=0 ; i<ar1.length ; i++)
+                if (ar1[i]%2==1)
+                System.out.println(ar1[i]);
+                
+        System.out.println("*** Task 6C ***");
+            for (int i=0 ; i<ar1.length ; i++)
+                if (ar1[i]%3==0)
+                System.out.println(ar1[i]);                                                 
         
         /*
          * Task 7.  For each element in ar1, 
