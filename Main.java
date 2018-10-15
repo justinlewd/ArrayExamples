@@ -173,7 +173,10 @@ class Main
          *          ar[2]=30
          *          ar[3]=4
          */
-        
+        System.out.println("*** Task 7 ***");    
+            for (int i = 0 ; i<ar1.length; i++;){
+                if (i==0
+           
          /*
           * Task 8
           *    Create an array called ar2odds
