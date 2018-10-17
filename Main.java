@@ -173,9 +173,18 @@ class Main
          *          ar[2]=30
          *          ar[3]=4
          */
-        System.out.println("*** Task 7 ***");    
-            for (int i = 0 ; i<ar1.length; i++;){
-                if (i==0
+        System.out.println("** Task 7 **");
+        
+        
+        for (int i=0 ; i<ar1.length ; i++)
+        {
+            if ( ar1[i]%2==1)
+                ar1[i] *=10;
+        }
+        
+        for (int i=0 ; i<ar1.length ; i++)
+            System.out.println(ar1[i]);
+        
            
          /*
           * Task 8
