@@ -29,6 +29,7 @@ class Main
          * Task 1.  Create an array of integers from 0 to n-1
          *          call this array ar1.  Print it out below.
          */
+        
         System.out.println("*** PRINTING ar1 *");
         int[] ar1 = new int[n];
         //declares  //allocates
@@ -106,17 +107,7 @@ class Main
         for (int i=0 ; i<ar3.length ; i++)
             System.out.println("ar3[" + i + "] = "+ar3[i]);
         //  
-                /*
-         * Alternate way of doing task 4
-         */
 
-        int k=0;
-        for (int numbers=0; numbers<2 ; numbers++)
-            for (int i=0 ; i<ar1.length ; i++)
-             { 
-                  ar3[k]=ar1[i];
-                  k++;
-             }
         
         /*
          * Task 5.  Switch the first and last element of ar1.
@@ -185,7 +176,7 @@ class Main
         for (int i=0 ; i<ar1.length ; i++)
             System.out.println(ar1[i]);
         
-           
+        
          /*
           * Task 8
           *    Create an array called ar2odds
@@ -197,6 +188,22 @@ class Main
           *    ar2[3]=3  ->  ar2odds[1]=3
           */
          
+            System.out.println(" ** Task 8 **");
+           int k=0;
+           int[] ar2odds = new int[ar2.length]; // bigger
+           for ( int i=0 ; i<ar2.length ; i++)
+           {
+               System.out.println(ar2[i]); // printing to see
+               
+               if (i%2==1)
+               {
+                   ar2odds[k]=ar2[i];
+                   k++;
+               }
+           }
+           
+           for (int i=0 ; i<k ; i++)
+               System.out.println(ar2odds[i]);
         /*
          * Task 9. In the array ar2, count how many odd numbers you
          * have.  Then create an ew array called ar4.  Copy just the odd
