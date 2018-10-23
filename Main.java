@@ -206,9 +206,20 @@ class Main
                System.out.println(ar2odds[i]);
         /*
          * Task 9. In the array ar2, count how many odd numbers you
-         * have.  Then create an ew array called ar4.  Copy just the odd
+         * have.  Then create a new array called ar4.  Copy just the odd
          * numbers from ar1 into ar4.  Print ar4
          */
+        
+        System.out.println("*** Task 9 ***");
+            int[] ar4 = new ar4[ar1.length/2];
+            for (int i=0; i<ar2.length ; i++)
+           {
+               if (ar1[i]%2==0)
+               {
+                   ar4[i]=ar1[1];
+                }
+           }
+            
         
         /*
          * Task 10.  Shift the elements of ar4 right by 1
@@ -216,12 +227,12 @@ class Main
          * old   ar4: 1 3 5 7 9
          * new   ar4  9 1 3 5 7
          */
-        
-        
+        System.out.println("*** Task 10 ***");
+            
         /*
          * Task 11.  Reverse the order of elements in ar2
          */
-        
+        System.out.println("*** Task 11 ***");     
         
         /*
          * Task 12: 
@@ -246,7 +257,7 @@ class Main
          *  
          *  Count how many words have more than 5 letters.
          */
-        
+        System.out.println("*** Task 12 ***");  
         /*
          * Task 13
          * Create an array called monsterArray of 5 Monsters.
@@ -261,7 +272,7 @@ class Main
          * Use a for loop to print out the names of monster that start with
          * a vowel
          */
-        
+        System.out.println("*** Task 13 ***");       
          /*
           * Task 14
           * Create an array of integers from 3 to 94 and call it arx
@@ -277,7 +288,7 @@ class Main
           *      So arindex[0]=2
           *         arindex[1]=5
           */
-         
+        System.out.println("*** Task 14 ***");
          /*
           * Create an arrary called "fb" and calculate the
           * first 10 fibonacci sequence.  You start with
